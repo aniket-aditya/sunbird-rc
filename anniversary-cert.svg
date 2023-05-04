@@ -185,7 +185,7 @@
   <text class="cls-2" transform="translate(215.99 388.58)"><tspan x="0" y="0">Thank you for being such a valuable member of our team.</tspan></text>
   <text class="cls-1" transform="translate(348.67 328.58)"><tspan x="0" y="0">{{evidence.serviceYear}}</tspan></text>
   <text class="cls-1" transform="translate(386.81 348.58)"><tspan x="0" y="0">on</tspan></text>
-  <text class="cls-1" transform="translate(367.74 368.58)"><tspan x="0" y="0">{{evidence.completedOn}}</tspan></text>
+  <text class="cls-1" transform="translate(367.74 368.58)"><tspan x="0" y="0">{{dateFormat evidence.completedOn "dddd, MMMM Do YYYY"}}</tspan></text>
   <text class="cls-2" transform="translate(228.83 408.58)"><tspan x="0" y="0">Wishing you continued success for milestones ahead!</tspan></text>
   <text class="cls-2" transform="translate(101.61 569.91)"><tspan x="0" y="0">Managing Director</tspan></text>
   <text class="cls-1" transform="translate(65.66 549.91)"><tspan class="cls-7" x="0" y="0">V</tspan><tspan x="9.08" y="0">ijay Prashanth Sunkeswari</tspan></text>
