@@ -120,7 +120,7 @@
 	</g>
 </g>
 <g>
-	<text transform="matrix(1 0 0 1 56.0958 74.7537)"><tspan x="0" y="0" class="st21 st40 st41">{{evidence.serviceYear}}</tspan></text>
+	<text transform="matrix(1 0 0 1 56.0958 74.7537)"><tspan x="0" y="0" class="st21 st40 st41">{{dateFormat evidence.serviceYear "Do"}}</tspan></text>
 </g>
 <text transform="matrix(1 0 0 1 30.0002 245.8178)" class="st0 st40 st42">{{credentialSubject.name}}</text>
 <text transform="matrix(1 0 0 1 29.9998 158.3431)" class="st22 st43 st44">CERTIFICATE</text>
