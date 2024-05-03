@@ -1,0 +1,43 @@
+{
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      {
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "schema": "https://schema.org/",
+          "vac": "https://sunbird.org/credentials/certificate/v1",
+          "Certificate": {
+            "@id": "vac:Certificate",
+            "@context": {
+              "@version": 1.1,
+              "health_worker_id": "schema:name",
+              "programme_completed": "schema:name"
+            }
+          },
+          "Person": {
+            "@id": "schema:Person",
+            "@context": {
+              "@version": 1.1,
+              "@protected": true,
+              "name": "schema:name"
+            }
+          }
+        }
+      }
+    ],
+    "type": ["VerifiableCredential"],
+    "issuanceDate": "2024-05-03T10:57:57.237Z",
+    "credentialSubject": {
+      "type": "Person",
+      "name": "{{name}}"
+    },
+    "evidence": {
+      "type": ["Certificate"],
+      "health_worker_id": "{{health_worker_id}}",
+      "programme_completed": "{{programme_completed}}"
+    },
+    "issuer": "${issuerId}"
+  }
