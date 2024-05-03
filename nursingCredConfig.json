@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://aniket-aditya.github.io/nursing-context.json",
+    {
+      "NursingCredential": {
+        "@id": "NursingCertCredential"
+      }
+    }
+  ],
+  "type": [
+    "VerifiableCredential",
+    "NursingCredential",
+    "NursingCertCredential"
+  ],
+  "issuer": "${issuerId}",
+  "credentialSubject": {
+    "name": "${name}",
+    "email": "${email}",
+    "district": "${district}",
+    "mobile": "${mobile}",
+    "division": "${division}",
+    "facility": "${facility}",
+    "role": "${role}",
+    "facility_type": "${facility_type}",
+    "health_worker_id": "${health_worker_id}",
+    "programme_completed": "${programme_completed}"
+  }
+}
