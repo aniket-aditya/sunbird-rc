@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://aniket-aditya.github.io/utt-context.json",
+    {
+      "UTTCredential": {
+        "@id": "UTTCertCredential"
+      }
+    }
+  ],
+  "type": [
+    "VerifiableCredential",
+    "UTTCredential",
+    "UTTCertCredential"
+  ],
+  "issuer": "${issuerId}",
+  "credentialSubject": {
+    "enrollment_id": "${enrollment_id}",
+    "name": "${name}",
+    "programme_completed": "${programme_completed}",
+    "completion_date": "${completion_date}"
+  }
+}
