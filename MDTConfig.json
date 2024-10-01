@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://aniket-aditya.github.io/mdt-context.json",
+    {
+      "MDTCredential": {
+        "@id": "MDTCertCredential"
+      }
+    }
+  ],
+  "type": [
+    "VerifiableCredential",
+    "MDTCredential",
+    "MDTCertCredential"
+  ],
+  "issuer": "${issuerId}",
+  "credentialSubject": {
+    "registration_id": "${registration_id}",
+    "name": "${name}",
+    "training_completed": "${training_completed}",
+    "completion_date": "${completion_date}"
+  }
+}
